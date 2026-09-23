@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Yoga, mindful movement, breathwork, and sound with Aila Poticano." />
+  <title>Aila Poticano | Yoga & Sound</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">AILA POTICANO</a>
+    <nav aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#offerings">Offerings</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">YOGA · BREATH · SOUND</p>
+        <h1>Movement that helps you come home to yourself.</h1>
+        <p class="lede">
+          Accessible, intentional yoga rooted in breath-to-movement,
+          mindful strength, and deep rest.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="#schedule">Practice with me</a>
+          <a class="button secondary" href="#about">Meet Aila</a>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+        <div class="sun"></div>
+        <div class="arch"></div>
+        <div class="leaf leaf-one"></div>
+        <div class="leaf leaf-two"></div>
+        <p>inhale<br><span>·</span><br>exhale</p>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Practice themes">
+      <span>MOVE WITH INTENTION</span>
+      <span>•</span>
+      <span>BREATHE WITH AWARENESS</span>
+      <span>•</span>
+      <span>REST DEEPLY</span>
+    </section>
+
+    <section class="about split" id="about">
+      <div>
+        <p class="eyebrow">ABOUT</p>
+        <h2>Hi, I’m Aila.</h2>
+      </div>
+      <div class="body-copy">
+        <p>
+          I’m a yoga teacher who loves creating classes that feel welcoming,
+          grounded, and intentional. My teaching blends accessible
+          breath-to-movement flows with time to slow down, feel, and connect.
+        </p>
+        <p>
+          I also weave sound into my classes, especially during savasana,
+          to create a softer landing at the end of practice.
+        </p>
+        <p class="note">
+          Replace this text with your fuller story whenever you’re ready.
+        </p>
+      </div>
+    </section>
+
+    <section class="offerings" id="offerings">
+      <div class="section-heading">
+        <p class="eyebrow">WAYS TO PRACTICE</p>
+        <h2>Come as you are.</h2>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <span class="number">01</span>
+          <h3>Vinyasa</h3>
+          <p>
+            Breath-led movement with mindful pacing, strength, mobility,
+            and options for different levels.
+          </p>
+        </article>
+
+        <article class="card">
+          <span class="number">02</span>
+          <h3>Slow Flow + Yin</h3>
+          <p>
+            A gentler practice with longer holds, spacious transitions,
+            and room to settle into your body.
+          </p>
+        </article>
+
+        <article class="card">
+          <span class="number">03</span>
+          <h3>Sound Bath Savasana</h3>
+          <p>
+            Deep rest supported by singing bowls and chimes for a calm,
+            immersive close to practice.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="quote">
+      <p>“Your practice does not have to look a certain way to belong to you.”</p>
+    </section>
+
+    <section class="schedule split" id="schedule">
+      <div>
+        <p class="eyebrow">SCHEDULE</p>
+        <h2>Practice together.</h2>
+        <p class="small">
+          Keep this simple at first. Add your exact class links when your schedule is finalized.
+        </p>
+      </div>
+
+      <div class="schedule-list">
+        <div class="class-row">
+          <div>
+            <strong>Monday</strong>
+            <span>Yoga · Hoboken / Jersey City</span>
+          </div>
+          <span class="time">Add time</span>
+        </div>
+        <div class="class-row">
+          <div>
+            <strong>Tuesday</strong>
+            <span>Yoga · Hoboken / Jersey City</span>
+          </div>
+          <span class="time">Add time</span>
+        </div>
+        <div class="class-row">
+          <div>
+            <strong>Weekly / Pop-ups</strong>
+            <span>Special classes, sound, events</span>
+          </div>
+          <span class="time">Add link</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="sound">
+      <div class="sound-copy">
+        <p class="eyebrow">SOUND + REST</p>
+        <h2>A softer ending.</h2>
+        <p>
+          Sound can turn savasana into an experience rather than an afterthought.
+          I use bowls and chimes to support stillness, downshifting, and a sense
+          of spaciousness after movement.
+        </p>
+      </div>
+      <div class="sound-art" aria-hidden="true">
+        <div class="bowl bowl-large"></div>
+        <div class="bowl bowl-small"></div>
+        <div class="wave w1"></div>
+        <div class="wave w2"></div>
+        <div class="wave w3"></div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <p class="eyebrow">CONNECT</p>
+      <h2>Want to practice, collaborate, or book a class?</h2>
+      <p>
+        Add your Instagram and email below. You can also connect a free contact form later.
+      </p>
+      <div class="actions center">
+        <a class="button primary" href="mailto:YOUR-EMAIL@example.com">Email me</a>
+        <a class="button secondary" href="https://instagram.com/YOURHANDLE">Instagram</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Aila Poticano</span>
+    <span>Yoga · Breath · Sound</span>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
